@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var Totcats = 44;
+var filaGatti = 6;
+var File = Math.ceil( Totcats / filaGatti );
+var GattiMancanti = (File * filaGatti) - Totcats;
+
+console.log(File);
+console.log(GattiMancanti);
